@@ -9,7 +9,7 @@ import {Link, NavLink} from "react-router-dom"
 import { useAuth0 } from "@auth0/auth0-react"
 import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModel from "../AddPropertyModel/AddPropertyModel";
-import useAuthCheck from "../../hooks/UseAuthCheck"
+import UseAuthCheck from "../../hooks/useCheck";
 
 
 
@@ -19,7 +19,7 @@ const Header = () => {
   const headerColor = useHeaderColor();
   const [modelOpened, setModelOpened] = useState(false);
   const {loginWithRedirect, isAuthenticated, user, logout} = useAuth0();
-  const validateLogin = useAuthCheck();
+  const validateLogin = UseAuthCheck();
 
   
  const handleAddPropertyClick = () =>{
