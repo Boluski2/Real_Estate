@@ -9,7 +9,7 @@ import {Link, NavLink} from "react-router-dom"
 import { useAuth0 } from "@auth0/auth0-react"
 import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModel from "../AddPropertyModel/AddPropertyModel";
-import UseAuthCheck from "../../hooks/useCheck";
+import UseAuthCheck from '../../hooks/useCheck.jsx'
 
 
 
