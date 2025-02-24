@@ -1,9 +1,8 @@
-"use client"
 import { Container, Modal, Stepper } from '@mantine/core'
 import React, { useState } from 'react'
 import AddLocation from '../AddLocation/AddLocation'
 import { useAuth0 } from '@auth0/auth0-react';
-import UpLoadImage from '../UpLoadImage/UpLoadImage';
+import UpLoadImage from '../UploadImage/UploadImage';
 import BasicDetails from '../BasicDetails/BasicDetails';
 import Facilities from '../Facilities/Facilities';
 

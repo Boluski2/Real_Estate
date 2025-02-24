@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import { Modal, Button } from '@mantine/core';
 import { DatePicker } from '@mantine/dates';
 import React, { useContext, useState } from 'react';

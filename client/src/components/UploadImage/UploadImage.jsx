@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React, { useEffect, useRef, useState } from 'react'
 import { AiOutlineCloudUpload } from "react-icons/ai"
 import './UpLoadImage.css'
@@ -68,4 +68,4 @@ const UpLoadImage = ({
   )
 }
 
-export default UpLoadImage
+export default UpLoadImage 

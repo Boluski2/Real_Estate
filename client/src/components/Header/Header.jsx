@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React, { useState } from "react";
 import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";

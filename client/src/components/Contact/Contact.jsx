@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React from "react";
 import "./Contact.css";
 import { MdCall } from "react-icons/md";

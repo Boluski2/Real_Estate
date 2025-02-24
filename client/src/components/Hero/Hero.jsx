@@ -1,8 +1,8 @@
-"use client"
+// "use client"
 import "./Hero.css";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
-import SearchBar from "../searchBar/SearchBar";
+import SearchBar from "../SearchBar/SearchBar";
 const Hero = () => {
   return (
     <section className="hero-wrapper">

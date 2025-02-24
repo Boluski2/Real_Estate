@@ -1,5 +1,5 @@
 // import {   useForm } from '@mantine/form'
-"use client"
+// "use client"
 import { useForm } from '@mantine/form'
 import React from 'react'
 import { validateString } from '../../utils/common'

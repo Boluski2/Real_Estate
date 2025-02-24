@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import React, { useState } from 'react'
 // import SearchBar from '../../components/SearchBar/SearchBar'
 import SearchBar from '../../components/searchBar/SearchBar'
