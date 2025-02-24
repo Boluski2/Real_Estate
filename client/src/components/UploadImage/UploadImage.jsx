@@ -1,7 +1,6 @@
-// "use client"
 import React, { useEffect, useRef, useState } from 'react'
 import { AiOutlineCloudUpload } from "react-icons/ai"
-import "./uploadimage.css"
+import './UpLoadImage.css'
 import { Button, Group } from '@mantine/core';
 
 
@@ -68,4 +67,4 @@ const UpLoadImage = ({
   )
 }
 
-export default UpLoadImage 
+export default UpLoadImage
