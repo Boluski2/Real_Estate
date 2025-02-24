@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import './PropertyCard.css'
 import { truncate } from "lodash"

@@ -1,3 +1,4 @@
+"use client"
 import { Container, Modal, Stepper } from '@mantine/core'
 import React, { useState } from 'react'
 import AddLocation from '../AddLocation/AddLocation'

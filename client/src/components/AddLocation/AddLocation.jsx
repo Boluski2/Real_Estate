@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { useForm } from "@mantine/form"
 import { validateString } from '../../utils/common'

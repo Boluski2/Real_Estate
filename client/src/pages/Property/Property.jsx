@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react'
 import {useMutation, useQuery} from 'react-query'
 import { useLocation } from 'react-router-dom'

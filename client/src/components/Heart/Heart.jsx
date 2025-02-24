@@ -1,3 +1,4 @@
+"use client"
 import { Handler } from 'leaflet'
 import React, { useContext, useEffect, useState } from 'react'
 import { AiFillHeart } from 'react-icons/ai'

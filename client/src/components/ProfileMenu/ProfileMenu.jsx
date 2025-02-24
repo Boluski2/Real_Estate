@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import {Menu, Avatar} from "@mantine/core"
 // import '@mantine/core/styles.css';

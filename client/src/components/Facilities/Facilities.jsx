@@ -1,3 +1,4 @@
+"use client"
 import React, { useContext } from 'react'
 import { useForm } from '@mantine/form'
 import { Box, Button, Group, NumberInput } from '@mantine/core';

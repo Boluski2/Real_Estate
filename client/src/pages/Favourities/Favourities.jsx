@@ -1,3 +1,4 @@
+"use client"
 import React, { useContext, useState } from 'react';
 import SearchBar from '../../components/searchBar/SearchBar';
 import '../Properties/Properties.css';

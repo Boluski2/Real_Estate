@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { HiLocationMarker } from 'react-icons/hi'
 

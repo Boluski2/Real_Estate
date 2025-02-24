@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Companies from "../components/Companies/Companies";
 import Contact from "../components/Contact/Contact";
