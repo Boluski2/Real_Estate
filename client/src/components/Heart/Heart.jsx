@@ -2,7 +2,7 @@
 import { Handler } from 'leaflet'
 import React, { useContext, useEffect, useState } from 'react'
 import { AiFillHeart } from 'react-icons/ai'
-import UseAuthCheck from '../../hooks/UseAuthCheck'
+import UseAuthCheck from '../../hooks/useAuthCheck'
 import { useMutation } from 'react-query'
 import { useAuth0 } from '@auth0/auth0-react'
 import UserDetailContext from '../../context/UserDetailContext'
@@ -11,7 +11,7 @@ import { toFav } from '../../utils/api'
 
 const Heart = ({id}) => {
     const [heartColor, setHeartColor] = useState("white")
-    const validateLogin = UseAuthCheck ()
+    const validateLogin = UseAuthCheck()
     const {user} = useAuth0()
 
     const {
