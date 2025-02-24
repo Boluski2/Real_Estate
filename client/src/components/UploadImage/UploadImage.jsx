@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { AiOutlineCloudUpload } from "react-icons/ai"
-import './UpLoadImage.css'
+import './uploadimage.css'
 import { Button, Group } from '@mantine/core';
 
 
