@@ -1,6 +1,6 @@
 // "use client"
 import React, { useContext, useState } from 'react';
-import SearchBar from '../../components/searchBar/SearchBar';
+import SearchBar from '../../components/SearchBar/SearchBar';
 import '../Properties/Properties.css';
 import useProperties from '../../hooks/useProperties';
 import { PuffLoader } from 'react-spinners';
