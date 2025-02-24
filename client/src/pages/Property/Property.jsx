@@ -10,7 +10,8 @@ import { FaShower } from "react-icons/fa"
 import { AiTwotoneCar } from "react-icons/ai"
 import { MdMeetingRoom, MdLocationPin } from "react-icons/md"
 import Map from '../../components/Map/Map'
-import UseAuthCheck from '../../hooks/UseAuthCheck'
+// import UseAuthCheck from '../../hooks/UseAuthCheck'
+import UseAuthCheck from '../../hooks/UseAuthCheck.jsx'
 import { useAuth0 } from '@auth0/auth0-react'
 import BookingModal from '../../components/BookingModal/BookingModal'
 import { useContext } from 'react'
